@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkavatar_setup_guide=self.webpackChunkavatar_setup_guide||[]).push([[1903],{1912:a=>{a.exports=JSON.parse('{"blogBasePath":"/avatar-setup-guide/blog","blogTitle":"Blog","authorsListPath":"/avatar-setup-guide/blog/authors"}')}}]);
