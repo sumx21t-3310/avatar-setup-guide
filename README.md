@@ -1,41 +1,109 @@
-# Website
+# VRChatアバターセットアップガイド
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+このリポジトリは、Boothショップ「[可愛いが主食。](https://booth.pm/ja/)」で購入された方向けに、  
+**VRChat向けアバターをUnity上で正しくセットアップするための日本語ガイド**です。  
+初心者から中級者まで、UnityやVRChatでのアバター導入に関する手順をわかりやすくまとめています。
 
-## Installation
+---
 
-```bash
-yarn
-```
+## 🎯 対象ユーザー
 
-## Local Development
+- VRChatで初めてアバターをアップロードしようとしている方
+- Unityでのセットアップに不安がある方
+- アバター配布者が「導入手順ガイド」として共有したい場合
 
-```bash
-yarn start
-```
+---
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+> 📌 ガイド内容は随時アップデートされています。Booth購入者の方も、再度ご確認いただくことをおすすめします。
 
-## Build
+---
 
-```bash
-yarn build
-```
+## 🛠 必要な環境
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+- **Unity 2022.3.31f1（LTS）** ※このバージョン以外だとVRChat Creator Companionで認識しません
+- **VRChat SDK3 - Avatars**
+- **VRChatアカウント**（[公式サイト](https://vrchat.com/home)より登録）
+- 推奨ツール：
+    - [Unity Hub](https://unity.com/ja/unity-hub)
+      - Quest/Pico対応したい場合はAndroid Build Supportが必要です 
+    - [VRChat Creator Companion](https://vcc.docs.vrchat.com/)
 
-## Deployment
+> 詳しいセットアップ手順は [`アバターをアップロードするための準備`](./docs/setup-environment/index.md) をご覧ください。
 
-Using SSH:
+---
 
-```bash
-USE_SSH=true yarn deploy
-```
+## 📚 ガイド構成
 
-Not using SSH:
+| ページ名                           | 説明内容                                  |
+|------------------------------------|-------------------------------------------|
+| `docs/setup-environment/index.md` | アバターをアップロードするための準備手順  |
+| `docs/upload-avatar/index.md`     | アバターをアップロードする方法           |
+| `docs/dress-up-avatar/index.md`   | 衣装やパーツの着せ替え・改変の方法       |
+| `docs/troubleshooting.md`         | よくあるエラーとその対処方法             |
+| `docs/faq.md`                     | 初心者向けのよくある質問と回答           |
+| `docs/resources.md`               | 便利なツールや外部リンク集               |
 
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
+---
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+## ✍️ ページの追加・編集について
+
+本ガイドはオープンソースとして公開されており、**皆さんの改善提案・編集を歓迎しています！**
+
+貢献の一例：
+
+- 誤字・脱字の修正
+- よりわかりやすい説明への改善
+- 最新のUnity/SDK情報の反映
+- よくある質問の追加や更新
+
+### ページの編集の手順
+
+1. リポジトリをフォーク
+2. 新しいブランチを作成（例：`fix-typo`、`add-faq`）
+3. 変更を加える
+4. `blog/changelog.md` に更新内容を記入
+5. プルリクエスト（PR）を送る
+
+### 注意事項
+
+- 大きな変更は事前にIssueでご相談ください
+- 利用規約やライセンスは必ず守ってください
+
+ご協力ありがとうございます！  
+質問や提案は [Issues](https://github.com/あなたのリポジトリ名/issues) までお気軽にどうぞ。
+
+
+---
+
+## ❗️注意・免責事項
+
+- 使用するUnity・VRChat SDK・アセットには、それぞれ利用規約があります。**配布元のルールを遵守してください。**
+- 商用利用や二次配布を行う場合、**アセット製作者の明示的な許可が必要**です。
+- 本ガイドは非公式であり、**VRChat公式・Unity Technologiesとは一切関係ありません。**
+
+---
+
+## 📄 ライセンス
+
+本リポジトリの内容は [MITライセンス](./docs/license.md) に基づいて提供されています。  
+商用・非商用問わず利用可能ですが、**著作権表記およびライセンス文の保持が必要**です。
+
+---
+
+## 📬 お問い合わせ・フィードバック
+
+不具合報告・質問・改善提案などは [Issues](https://github.com/あなたのリポジトリ名/issues) よりお気軽にお寄せください。  
+また、具体的な使い方の相談やアドバイスが必要な方は、Booth販売ページの「メッセージ」機能もご利用いただけます。
+
+---
+
+## ❤️ Special Thanks
+
+- VRChat開発コミュニティの皆さま
+- Unityアセット制作者の皆さま
+- 情報提供・レビュー・テスト協力をしてくださるすべての方々
+
+---
+
+> 🛠 最新のVRChat環境やアップデートに対応するため、引き続き改善・更新してまいります。  
+> ご協力・ご利用ありがとうございます！
