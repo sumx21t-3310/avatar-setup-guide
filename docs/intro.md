@@ -32,7 +32,7 @@ sidebar_position: 1
     - [Unity Hub](https://unity.com/ja/unity-hub)
     - [VRChat Creator Companion](https://vcc.docs.vrchat.com/)
 
-> 詳しいセットアップ手順は [アバターをアップロードするための準備](/setup-environment/index) をご覧ください。
+> 詳しいセットアップ手順は [アバターをアップロードするための準備](setup-environment) をご覧ください。
 
 ---
 
