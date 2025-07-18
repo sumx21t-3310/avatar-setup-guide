@@ -25,7 +25,7 @@
 - **VRChatアカウント**（[公式サイト](https://vrchat.com/home)より登録）
 - 推奨ツール：
     - [Unity Hub](https://unity.com/ja/unity-hub)
-      - Quest/Pico対応したい場合はAndroid Build Supportが必要です 
+        - Quest/Pico対応したい場合はAndroid Build Supportが必要です
     - [VRChat Creator Companion](https://vcc.docs.vrchat.com/)
 
 > 詳しいセットアップ手順は [`アバターをアップロードするための準備`](./docs/setup-environment/index.md) をご覧ください。
@@ -34,14 +34,14 @@
 
 ## 📚 ガイド構成
 
-| ページ名                           | 説明内容                                  |
-|------------------------------------|-------------------------------------------|
-| `docs/setup-environment/index.md` | アバターをアップロードするための準備手順  |
-| `docs/upload-avatar/index.md`     | アバターをアップロードする方法           |
-| `docs/dress-up-avatar/index.md`   | 衣装やパーツの着せ替え・改変の方法       |
-| `docs/troubleshooting.md`         | よくあるエラーとその対処方法             |
-| `docs/faq.md`                     | 初心者向けのよくある質問と回答           |
-| `docs/resources.md`               | 便利なツールや外部リンク集               |
+| ページ名                              | 説明内容                 |
+|-----------------------------------|----------------------|
+| `docs/setup-environment/index.md` | アバターをアップロードするための準備手順 |
+| `docs/upload-avatar/index.md`     | アバターをアップロードする方法      |
+| `docs/dress-up-avatar/index.md`   | 衣装やパーツの着せ替え・改変の方法    |
+| `docs/troubleshooting.md`         | よくあるエラーとその対処方法       |
+| `docs/faq.md`                     | 初心者向けのよくある質問と回答      |
+| `docs/resources.md`               | 便利なツールや外部リンク集        |
 
 ---
 

@@ -89,13 +89,8 @@ const config: Config = {
         // {to: '/blog', label: 'Blog', position: 'left'},
         // {type: 'localeDropdown', position: 'right'},
         {
-          type: 'html',
-          position: 'right',
-          value: `
-            <a href="https://sumx21tridg3.booth.pm" target="_blank" rel="noopener noreferrer">
-              <img src="https://public.boxcloud.com/api/2.0/files/974353070800/content?preview=true&version=1053265752400&access_token=1!lsN9FCZf4XSRLknWio0U3Sh3jBxB_ryHtvS0U5YeGxlOx94ccMpaV6QWrBP094C7TcPjp1SCfA7h-v2dPqy_Av1DFFMqmdQQidehhfhxwwbws5Bxpw5e1EfvAdPM4E51ty-fAv1xFgK30mx2nePGMyTLhoSmUlfl_CgQPxB6PgK_O3BCkiQk-RV_w7H51y7tTSNKl7kq9z76NxdTHbhJ6lPbgiYEmIMHySeJeEjt8G4zcKdRHNHnyLoxBK6msUlAV_KNwLkAm6JF1VyrUogSSryQXnf0CmHCRyV14R2w5vfSYoYHYEr25OPdQcSnfxfEiswqUkKjfwWzzX6dZa42UcCBCXYi0s3MgGLcdjkMLmbH80mwgj2YYPNqVCru1Rm6-HqUWVTCEJctuPO-e5jJoWTm6vuGbBnC6NxMX6SXVC1K8zZOQUDGvyEQR1XQ1XPlNElTkdpB1ZCzHmnZPlv_9P77_47P5PdZ0RrBLo4tUihFEuPE-AWzINrUh2oKIrwA-mAIuSvuTl4cUMyop4VJrjiC6w-DAJ_KjV04x9tak8o6OJgafmlyUBHCkvNZAFVjhpHV4zEpLiUbcFCVdOVmVi60q7yM-sRqfpLU5YcQQp59t89CaqeYAOBGRb2R9pDoiBBsIj3OkpoESOw5STwaDCavTmz2ebTUlo-eT_sSeV33gXlv5P0.&shared_link=https%3A%2F%2Fpixiv1.app.box.com%2Fs%2Fyj9ymvhbnpcbj22vfkkzctugzv46cnos&box_client_name=box-content-preview&box_client_version=3.8.0" alt="External Link" style="height: 24px; vertical-align: middle;" />
-            </a>
-          `,
+          label: 'BOOTH',
+          href: 'https://sumx21tridg3.booth.pm',
         },
       ],
     },
