@@ -2,46 +2,111 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# VRChatアバターセットアップガイド
 
-Let's discover **Docusaurus in less than 5 minutes**.
+このリポジトリは、Boothショップ「[可愛いが主食。](https://sumx21tridg3.booth.pm/)」で購入された方向けに、  
+**VRChat向けアバターをUnity上で正しくセットアップするための日本語ガイド**です。  
+初心者から中級者まで、UnityやVRChatでのアバター導入に関する手順をわかりやすくまとめています。
 
-## Getting Started
+---
 
-Get started by **creating a new site**.
+## 🎯 対象ユーザー
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+- VRChatで初めてアバターをアップロードしようとしている方
+- Unityでのセットアップに不安がある方
+- アバター配布者が「導入手順ガイド」として共有したい場合
 
-### What you'll need
+---
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+> 📌 ガイド内容は随時アップデートされています。Booth購入者の方も、再度ご確認いただくことをおすすめします。
 
-## Generate a new site
+---
 
-Generate a new Docusaurus site using the **classic template**.
+## 🛠 必要な環境
 
-The classic template will automatically be added to your project after you run the command:
+- **Unity 2022.3.31f1（LTS）** ※このバージョン以外だとVRChat Creator Companionで認識しません
+    - ※Quest/Pico対応したい場合はAndroid Build Supportが必要です
+- **VRChat SDK3 - Avatars**
+- **VRChatアカウント**（[公式サイト](https://vrchat.com/home)より登録）
+- 推奨ツール：
+    - [Unity Hub](https://unity.com/ja/unity-hub)
+    - [VRChat Creator Companion](https://vcc.docs.vrchat.com/)
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+> 詳しいセットアップ手順は [アバターをアップロードするための準備](/setup-environment/index) をご覧ください。
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+---
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+## 📚 ガイド構成
 
-## Start your site
+| ページ名                                           | 説明内容                 |
+|------------------------------------------------|----------------------|
+| [アバターをアップロードするための準備](/setup-environment/index) | アバターをアップロードするための準備手順 |
+| [アバターのアップロード](/upload-avatar)                  | アバターをアップロードする方法      |
+| [アバターの着せ替え・改変](/dress-up-avatar)               | 衣装やパーツの着せ替え・改変の方法    |
+| [困ったときは？](/troubleshooting)                    | よくあるエラーとその対処方法       |
+| [よくある質問](/faq)                                 | 初心者向けのよくある質問と回答      |
+| [役に立つリンクやツール](/resources)                      | 便利なツールや外部リンク集        |
 
-Run the development server:
+---
 
-```bash
-cd my-website
-npm run start
-```
+## ✍️ ページの追加・編集について
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+本ガイドはオープンソースとして公開されており、**皆さんの改善提案・編集を歓迎しています！**
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+貢献の一例：
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+- 誤字・脱字の修正
+- よりわかりやすい説明への改善
+- 最新のUnity/SDK情報の反映
+- よくある質問の追加や更新
+
+### ページの編集の手順
+
+1. リポジトリをフォーク
+2. 新しいブランチを作成（例：`fix-typo`、`add-faq`）
+3. 変更を加える
+4. プルリクエスト（PR）を送る
+
+### 注意事項
+
+- 大きな変更は事前にIssueでご相談ください
+- 利用規約やライセンスは必ず守ってください
+
+ご協力ありがとうございます！  
+質問や提案は [Issues](https://github.com/あなたのリポジトリ名/issues) までお気軽にどうぞ。
+
+
+---
+
+## ❗️注意・免責事項
+
+- 使用するUnity・VRChat SDK・アセットには、それぞれ利用規約があります。**配布元のルールを遵守してください。**
+- 商用利用や二次配布を行う場合、**アセット製作者の明示的な許可が必要**です。
+- 本ガイドは非公式であり、**VRChat公式・Unity Technologiesとは一切関係ありません。**
+
+---
+
+## 📄 ライセンス
+
+本リポジトリの内容は [MITライセンス](./docs/license.md) に基づいて提供されています。  
+商用・非商用問わず利用可能ですが、**著作権表記およびライセンス文の保持が必要**です。
+
+---
+
+## 📬 お問い合わせ・フィードバック
+
+不具合報告・質問・改善提案などは [Issues](https://github.com/あなたのリポジトリ名/issues) よりお気軽にお寄せください。  
+また、具体的な使い方の相談やアドバイスが必要な方は、Booth販売ページの「メッセージ」機能もご利用いただけます。
+
+---
+
+## ❤️ Special Thanks
+
+- VRChat開発コミュニティの皆さま
+- Unityアセット制作者の皆さま
+- 情報提供・レビュー・テスト協力をしてくださるすべての方々
+
+---
+
+> 🛠 最新のVRChat環境やアップデートに対応するため、引き続き改善・更新してまいります。  
+> ご協力・ご利用ありがとうございます！
